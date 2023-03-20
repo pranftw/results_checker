@@ -1,5 +1,5 @@
 # Results Checker
-### Automatically check if results have been announced, instead of refreshing the page like a cave man!
+### Automatically check if results have been announced, instead of refreshing the page like a caveman!
 
 ## Installation
 `git clone https://github.com/pranftw/results_checker.git`
