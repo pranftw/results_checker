@@ -30,6 +30,18 @@ class Checker:
 
 class BMSChecker(Checker):
   def __init__(self, sem, branch, course, exam_start_month, exam_end_month, exam_year, exam_type, refresh_interval=60):
+    '''Checker for BMSCE results
+
+    Parameters:
+      sem (int): Semester
+      branch (str): Branch
+      course (str): Course type(None for B.E or MBA or MTech or ...)
+      exam_start_month (str): Short form of month in which exam started(ex. feb for February)
+      exam_end_month (str): Short form of month in which exam ended(ex. feb for February)
+      exam_year (int): Year in which exam happened
+      exam_type (str): Type of exam(None for regular exams or supplementary or ...)
+      refresh_interval (int): Time interval between requests to the url in seconds
+    '''
     self.sem = sem
     self.branch = branch
     self.course = course

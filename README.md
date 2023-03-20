@@ -1,10 +1,14 @@
 # Results Checker
 ### Automatically check if results have been announced, instead of refreshing the page like a cave man!
 
+## Installation
+`git clone https://github.com/pranftw/results_checker.git`
+Create a virtual environment and activate it
+`pip install -r requirements.txt`
+
 ## Example
 ```python
 from results_checker import BMSChecker
-
 
 checker = BMSChecker(
   sem=7,
