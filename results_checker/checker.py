@@ -9,6 +9,7 @@ class Checker:
     self.refresh_interval = refresh_interval
   
   def __call__(self):
+    print('Checking...')
     self.checker()
 
   def run(self, *fns):
