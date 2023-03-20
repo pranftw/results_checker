@@ -2,9 +2,11 @@
 ### Automatically check if results have been announced, instead of refreshing the page like a caveman!
 
 ## Installation
-`git clone https://github.com/pranftw/results_checker.git`<br>
-Create a virtual environment and activate it<br>
-`pip install -r requirements.txt`<br>
+```
+git clone https://github.com/pranftw/results_checker.git
+# Create a virtual environment and activate it
+pip install -r requirements.txt
+```
 
 ## Example
 ```python
